@@ -65,7 +65,7 @@ const Projects = () => {
             <li>- Portfolio ...</li>
           </ul>
           <div className="button">
-            <a href="https://github.com/Yunjidev/rustoff">
+            <a href="https://github.com/Yunjidev/portfolio_v1.git">
               <button>Code</button>
             </a>
             <a href="#">
