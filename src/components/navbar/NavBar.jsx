@@ -66,9 +66,9 @@ export const NavBar = () => {
             </Nav.Link>
 
             <Nav.Link href="/cv.pdf" download className="navbar-link">
-  CV
-  <img src={dl} alt="Télécharger" className="download-icon" />
-</Nav.Link>
+              CV
+              <img src={dl} alt="Télécharger" className="download-icon" />
+            </Nav.Link>
 
             <Nav.Link onClick={toggleNightMode} className="theme-toggle-button">
               {isNightMode ? <img src={navIcon4} alt="Lune" /> : <img src={navIcon5} alt="Soleil" />}

@@ -39,7 +39,7 @@ export const Skills = () => {
   };
 
   return (
-    <section className={`skill ${isNightMode ? 'night-mode' : ''}`}>
+    <section id="skills" className={`skills ${isNightMode ? 'night-mode' : ''}`}>
       <div className="container">
         <div className="row">
           <div className="col-12">
