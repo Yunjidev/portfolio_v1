@@ -7,6 +7,7 @@ import Project from './components/project/Projects';
 import projects from './components/project/projectsData';
 import Footer  from "./components/footer/Footer";
 import { NightModeProvider } from './components/NightModeContext';
+import AboutMe from './components/about/AboutMe';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <div className="App">
         <NavBar />
         <Banner />
+        <AboutMe />
         <Skills />
         <div className="projects-container">
           {projects.map((project, index) => (

@@ -5,12 +5,12 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
-  background-color: #121212;
+  background-color: #000b0f;
 }
 
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #000b0f;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -37,7 +37,6 @@ span.navbar-text {
 .social-icon {
   display: flex;
   align-items: center;
-  margin-left: 14px;
 }
 
 .social-icon a {
@@ -146,7 +145,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .download-icon {
-  width: 20px; /* Ajustez la taille selon vos besoins */
+  width: 20px; 
   height: auto;
-  margin-left: 5px; /* Ajoutez un espacement à gauche si nécessaire */
+  margin-left: 5px;
 }

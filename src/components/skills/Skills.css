@@ -4,11 +4,17 @@
 }
 
 .skill-bx {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   border: 2px solid rgba(123, 31, 162, 0.7);
   /* Ajoute le style pour le mode nuit */
-  background-color: rgb(17, 16, 16);
+  background-color: #12191F;
   color: rgb(255, 255, 255);
+}
+
+.skill-bx h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .skill-row {
@@ -51,7 +57,7 @@ ul {
 
 /* Styles pour le mode nuit */
 .night-mode .skill-bx {
-  background-color: rgb(229, 166, 236);
+  background-color: #12191F;
   color: rgb(0, 0, 0);
 }
 
@@ -80,7 +86,7 @@ ul {
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: #12191F;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;

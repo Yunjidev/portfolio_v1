@@ -1,7 +1,8 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import { createContext, useContext, useState, useEffect } from 'react';
 
 const NightModeContext = createContext();
 
+// eslint-disable-next-line react/prop-types
 export const NightModeProvider = ({ children }) => {
   // Utilisez le localStorage pour obtenir la valeur initiale ou par défaut à false
   const initialNightMode = JSON.parse(localStorage.getItem('nightMode')) || false;
@@ -24,6 +25,7 @@ export const NightModeProvider = ({ children }) => {
   );
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const useNightMode = () => {
   return useContext(NightModeContext);
 };

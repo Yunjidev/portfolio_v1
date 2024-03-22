@@ -28,10 +28,12 @@ html {
 }
 
 body {
+  background-image: url('./assets/img/blur.svg');
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background: linear-gradient(to bottom right, #121212 40%, #892be2f0 100%) !important;
+  background-color: #000b0f !important;
+  background-size: 100%;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
