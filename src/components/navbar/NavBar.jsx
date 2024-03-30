@@ -5,6 +5,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../../assets/img/logoanim.gif';
 import navIcon1 from '../../assets/img/nav-icon1.svg';
 import navIcon2 from '../../assets/img/nav-icon2.svg';
+import navIcon4 from '../../assets/img/nav-icon4.svg';
 import dl from '../../assets/img/download.svg';
 
 
@@ -74,11 +75,14 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/florian-van-camp-102aba262/">
-                <img src={navIcon1} alt="" />
+              <a href="https://www.linkedin.com/in/florian-van-camp-102aba262/" title="LinkedIn">
+                <img src={navIcon1} alt="linkedin link" />
               </a>
-              <a href="mailto:yunjiwebdev@gmail.com">
-                <img src={navIcon2} alt="" />
+              <a href="mailto:yunjiwebdev@gmail.com" title="Contact">
+                <img src={navIcon2} alt="mail link" />
+              </a>
+              <a href="https://www.malt.fr/profile/florianvancamp" title="Malt">
+                <img src={navIcon4} alt="malt link" />
               </a>
             </div>
           </span>
