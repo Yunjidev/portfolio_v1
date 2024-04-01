@@ -36,6 +36,9 @@ body {
   background-size: 100%;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
+  --sb-track-color: #202d33;
+  --sb-thumb-color: #000b0f;
+  --sb-size: 8px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -84,3 +87,27 @@ p.danger {
 	color: red;
 }
 
+
+
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 7px;
+  border: 1px solid #232e33;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
