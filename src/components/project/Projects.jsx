@@ -102,11 +102,11 @@ const Projects = () => {
 
   return (
     <>
-      <div className="section-header">
+      <div id="projects" className="section-header">
         <h2>Mes Projets</h2>
         <p>Découvrez certains de mes projets récents.</p>
       </div>
-      <div id="projects" className="card-container">
+      <div className="card-container">
         {projects.map((project, index) => (
           <Card key={project.title} className={`project-card ${expanded[index] ? 'is-expanded' : ''}`} sx={{ maxWidth: 400, bgcolor: '#12191f', color: '#ffffff', flex: '1 0 calc(25% - 32px)', margin: '16px', display: 'flex', flexDirection: 'column' }}>
             <CardHeader
