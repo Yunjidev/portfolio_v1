@@ -111,13 +111,20 @@
 
 .project-card {
   width: calc(25% - 16px);
-  height: 550px; /* Adjust height as needed */
+  height: 550px;
   margin: 16px 8px;
-  border: 2px solid #7b21b7;
-  overflow: hidden; /* Cache tout contenu qui dépasse la hauteur de la carte */
+  overflow: hidden;
   transition: height 0.3s ease;
+  transition: all 0.5s ease 0s !important;
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+
 }
 
+.project-card:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
 .project-card .MuiAvatar-root {
   width: 50px;
   height: 50px;

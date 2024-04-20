@@ -78,7 +78,7 @@ const Projects = () => {
       technologies: ["svg5", "svg7", "svg6", "svg8", "svg9"],
       details: ["Utilisation de l'API Charmverse. Charmverse est une plateforme similaire à Notion, mais dédiée aux jeux Web3.", "Les rédacteurs éditent leurs articles de Wikipédia directement sur Charmverse.", " L'API récupère ensuite ces articles sur Charmverse, les transmet et affiche leur format Markdown directement sur le site.", "C'est la première fois que leur API est utilisée pour une telle fonctionnalité."],
       codeLink: "https://github.com/Yunjidev/wiki_bigtime",
-      liveLink: "#"
+      liveLink: "https://wiki-two-zeta.vercel.app/"
     },
   ];
 
