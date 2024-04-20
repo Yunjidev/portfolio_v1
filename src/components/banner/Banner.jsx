@@ -37,7 +37,7 @@ export const Banner = () => {
                     <a href="https://www.linkedin.com/in/florian-van-camp-102aba262/" title="Linkedin">
                       <img src={navIcon1} alt="link linkedin" />
                     </a>
-                    <a href="mailto:yunjiwebdev@gmail.com" title="Contact">
+                    <a href="mailto:yunji.webdev@gmail.com" title="Contact">
                       <img src={navIcon2} alt="link mail" />
                     </a>
                     <a href="https://github.com/Yunjidev" title="Github">

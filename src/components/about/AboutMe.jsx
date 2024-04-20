@@ -25,7 +25,7 @@ function AboutMe() {
                   <FaUser style={{ color: '#D268CC', fontSize: '1.5em' }} /> Florian van Camp
                 </li>
                 <li>
-                  <IoMdMail style={{ color: '#D268CC', fontSize: '1.5em' }} /> yunjiwebdev@gmail.com
+                  <IoMdMail style={{ color: '#D268CC', fontSize: '1.5em' }} /> yunji.webdev@gmail.com
                 </li>
                 <li>
                   <FaMapMarkerAlt style={{ color: '#D268CC', fontSize: '1.5em' }} /> France, Nord
