@@ -27,6 +27,10 @@ import dao3 from "../../assets/img/dao3.png";
 import dao4 from "../../assets/img/dao4.png";
 import wiki from "../../assets/img/wiki.png";
 import wiki2 from "../../assets/img/wiki2.png";
+import maslogo from "../../assets/img/Mas/logo.png";
+import masimg2 from "../../assets/img/Mas/2.png";
+import masimg3 from "../../assets/img/Mas/3.png";
+
 
 import "./project.css"
 
@@ -47,12 +51,14 @@ const Projects = () => {
     "RustOff": [rustoffProject1, rustoffProject2, rustoffProject3],
     "Website ChronoDAO": [dao , dao1, dao2, dao3, dao4],
     "Wiki BigTime": [wiki,wiki2],
+    "Mas des Sources" : [masimg2, masimg3],
   };
 
   const projectAvatars = {
     "RustOff": avatar1,
     "Website ChronoDAO": avatar2,
     "Wiki BigTime": avatar3,
+    "Mas des Sources" : maslogo,
   };
 
   const projects = [
@@ -79,6 +85,19 @@ const Projects = () => {
       details: ["Utilisation de l'API Charmverse. Charmverse est une plateforme similaire à Notion, mais dédiée aux jeux Web3.", "Les rédacteurs éditent leurs articles de Wikipédia directement sur Charmverse.", " L'API récupère ensuite ces articles sur Charmverse, les transmet et affiche leur format Markdown directement sur le site.", "C'est la première fois que leur API est utilisée pour une telle fonctionnalité."],
       codeLink: "https://github.com/Yunjidev/wiki_bigtime",
       liveLink: "https://wiki-two-zeta.vercel.app/"
+    },
+    {
+      title: "Mas des Sources",
+      description: "Création du Wikipédia pour le jeu Web3 Bigtime et pour la ChonoDAO. Front-end - React - TypeScript, Back-end - Strapi et API Charmverse.",
+      technologies: ["svg6", "svg5", "svg4", "svg2"],
+      details: [
+        "Site créé le Mas des Sources - Cévenol, offrant une expérience utilisateur optimale pour les visiteurs à la recherche d'hébergements dans les Cévennes.",
+        "Site fait avec React, JS et Tailwind, comprenant plusieurs fonctionnalités",
+        "Le site contient plusieurs pages, notamment des pages de présentation, des pages dédiées à chaque hébergement, ainsi que des pages pour les activités et les loisirs disponibles dans la région ect",
+        "Offrant ainsi une vitrine numérique complète pour promouvoir ses services et ses offres d'hébergement."
+      ],
+      codeLink: "https://github.com/Yunjidev/mas_des_sources",
+      liveLink: "https://mas-des-sources.vercel.app/"
     },
   ];
 
