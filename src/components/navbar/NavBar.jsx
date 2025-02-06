@@ -78,7 +78,7 @@ export const NavBar = () => {
               <a href="https://www.linkedin.com/in/florian-van-camp-102aba262/" title="LinkedIn">
                 <img src={navIcon1} alt="linkedin link" />
               </a>
-              <a href="mailto:yunji.webdev@gmail.com" title="Contact">
+              <a href="mailto:florian.vancamp@gmail.com" title="Contact">
                 <img src={navIcon2} alt="mail link" />
               </a>
               <a href="https://www.malt.fr/profile/florianvancamp" title="Malt">

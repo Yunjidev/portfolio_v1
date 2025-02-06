@@ -18,14 +18,14 @@ function AboutMe() {
             <div className="about-info">
               <h2>A propos de moi</h2>
               <p>
-                Passionné par le spatial, la technologie et l'informatique, je suis un développeur web motivé et dynamique. Fort d'une formation chez The Hacking Project, j'ai acquis diverses compétences et la capacité d'apprentissage. Prêt à partager mon univers avec vous.
+                Passionné par le spatial, la technologie et l'informatique, je suis un développeur web motivé et dynamique. Formateur au chez The Hacking Project, je forme les accompagne les élèves dans leur cursus et leurs projets. Prêt à partager mon univers avec vous.
               </p>
               <ul className="about-list">
               <li>
                   <FaUser style={{ color: '#D268CC', fontSize: '1.5em' }} /> Florian van Camp
                 </li>
                 <li>
-                  <IoMdMail style={{ color: '#D268CC', fontSize: '1.5em' }} /> yunji.webdev@gmail.com
+                  <IoMdMail style={{ color: '#D268CC', fontSize: '1.5em' }} /> florian.vancamp@gmail.com
                 </li>
                 <li>
                   <FaMapMarkerAlt style={{ color: '#D268CC', fontSize: '1.5em' }} /> France, Nord
