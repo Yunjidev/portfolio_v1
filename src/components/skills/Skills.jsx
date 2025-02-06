@@ -20,6 +20,7 @@ import {
 import { 
   TbBrandFigma,
   TbBrandVscode,
+  TbBrandNodejs,
 } from "react-icons/tb";
 
 export const Skills = () => {
@@ -86,6 +87,11 @@ export const Skills = () => {
             <DiTerminal />
             <span className="tech-icon-description">Terminal</span>
           </Col>
+          <Col xs={4} md={2} className="tech-icons">
+            <TbBrandNodejs />
+            <span className="tech-icon-description">NodeJS</span>
+          </Col>
+
         </Row>
       </>
     </div>

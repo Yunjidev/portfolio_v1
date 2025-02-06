@@ -20,6 +20,7 @@ import svg6 from "../../assets/img/skills-logo/react-1.svg";
 import svg7 from "../../assets/img/skills-logo/typescript.svg"; 
 import svg8 from "../../assets/img/skills-logo/strapi-2.svg"; 
 import svg9 from "../../assets/img/skills-logo/css-3.svg";
+import svg10 from "../../assets/img/skills-logo/nodejs.svg";
 import dao from "../../assets/img/daowebsite.png";
 import dao1 from "../../assets/img/dao1.png";
 import dao2 from "../../assets/img/dao2.png";
@@ -30,7 +31,9 @@ import wiki2 from "../../assets/img/wiki2.png";
 import maslogo from "../../assets/img/Mas/logo.png";
 import masimg2 from "../../assets/img/Mas/2.png";
 import masimg3 from "../../assets/img/Mas/3.png";
-
+import mpe1 from "../../assets/img/MPE/mpe1.png";
+import mpe2 from "../../assets/img/MPE/mpe2.png";
+import mpelogo from "../../assets/img/MPE/mpelogo.svg";
 
 import "./project.css"
 
@@ -45,6 +48,7 @@ const Projects = () => {
     svg7,
     svg8,
     svg9,
+    svg10,
   };
 
   const projectImages = {
@@ -52,6 +56,7 @@ const Projects = () => {
     "Website ChronoDAO": [dao , dao1, dao2, dao3, dao4],
     "Wiki BigTime": [wiki,wiki2],
     "Mas des Sources" : [masimg2, masimg3],
+    "Ma Petite Entreprise" : [mpe1, mpe2],
   };
 
   const projectAvatars = {
@@ -59,45 +64,60 @@ const Projects = () => {
     "Website ChronoDAO": avatar2,
     "Wiki BigTime": avatar3,
     "Mas des Sources" : maslogo,
+    "Ma Petite Entreprise" : mpelogo
   };
 
   const projects = [
     {
       title: "RustOff",
-      description: "Création d'un site Web pour un graphiste. Site créé avec un Front-end Réact et Tailwind, Back-end avec Ruby on Rails.",
+      description: "[OFFLINE] Création d'un site Web pour un graphiste. Site créé avec un Front-end Réact et Tailwind, Back-end avec Ruby on Rails.",
       technologies: ["svg1", "svg2", "svg3", "svg4", "svg5", "svg6"],
       details: ["Boutique en ligne (Stripe).", "Création de devis et gestion Admin des devis.", "Panel Admin.", "Mailer.", "Compte Client.", "Portfolio."],
       codeLink: "https://github.com/Yunjidev/rustoff",
-      liveLink: "#"
+      // liveLink: "#"
     },
     {
       title: "Website ChronoDAO",
-      description: "Amélioration et ajout dans le site de la guilde ChonoDAO pour le jeu BigTime Web3. Front-end Réact - TypeScript, Back-end - Strapi.",
+      description: "[OFFLINE] Amélioration et ajout dans le site de la guilde ChonoDAO pour le jeu BigTime Web3. Front-end Réact - TypeScript, Back-end - Strapi.",
       technologies: ["svg5", "svg7", "svg6", "svg8", "svg9"],
       details: ["SiteWeb complet pour la guilde ChonoDAO.", "Création d'un back-end Strapi.", "Tout le site est modifiable via le back-end Strapi.","Ainsi les rédacteurs peuvent éditer le site sans toucher au code, juste en éditant, en ajoutant des données dans Strapi."],
       codeLink: "https://github.com/ChronoDAO/website",
-      liveLink: "https://www.chronodao.com/"
+      // liveLink: "https://www.chronodao.com/"
     },
     {
       title: "Wiki BigTime",
-      description: "Création du Wikipédia pour le jeu Web3 Bigtime et pour la ChonoDAO. Front-end - React - TypeScript, Back-end - Strapi et API Charmverse.",
+      description: "[OFFLINE] Création du Wikipédia pour le jeu Web3 Bigtime et pour la ChonoDAO. Front-end - React - TypeScript, Back-end - Strapi et API Charmverse.",
       technologies: ["svg5", "svg7", "svg6", "svg8", "svg9"],
       details: ["Utilisation de l'API Charmverse. Charmverse est une plateforme similaire à Notion, mais dédiée aux jeux Web3.", "Les rédacteurs éditent leurs articles de Wikipédia directement sur Charmverse.", " L'API récupère ensuite ces articles sur Charmverse, les transmet et affiche leur format Markdown directement sur le site.", "C'est la première fois que leur API est utilisée pour une telle fonctionnalité."],
       codeLink: "https://github.com/Yunjidev/wiki_bigtime",
-      liveLink: "https://wiki-two-zeta.vercel.app/"
+      // liveLink: "https://wiki-two-zeta.vercel.app/"
     },
     {
       title: "Mas des Sources",
-      description: "Création du Wikipédia pour le jeu Web3 Bigtime et pour la ChonoDAO. Front-end - React - TypeScript, Back-end - Strapi et API Charmverse.",
+      description: "Création pour le Mas des Sources - Cévenol, offrant une expérience utilisateur optimale pour les visiteurs à la recherche d'hébergements dans les Cévennes.",
       technologies: ["svg6", "svg5", "svg4", "svg2"],
       details: [
-        "Site créé le Mas des Sources - Cévenol, offrant une expérience utilisateur optimale pour les visiteurs à la recherche d'hébergements dans les Cévennes.",
         "Site fait avec React, JS et Tailwind, comprenant plusieurs fonctionnalités",
         "Le site contient plusieurs pages, notamment des pages de présentation, des pages dédiées à chaque hébergement, ainsi que des pages pour les activités et les loisirs disponibles dans la région ect",
         "Offrant ainsi une vitrine numérique complète pour promouvoir ses services et ses offres d'hébergement."
       ],
       codeLink: "https://github.com/Yunjidev/mas_des_sources",
       liveLink: "https://mas-des-sources.vercel.app/"
+    },
+    {
+      title: "Ma Petite Entreprise",
+      description: " [ En Cours ] Ma Petite Entreprise est une plateforme innovante dédiée à améliorer la visibilité des petites entreprises et auto-entrepreneurs dans divers secteurs.",
+      technologies: ["svg6", "svg5", "svg4", "svg2", "svg10"],
+      details: [
+        "Plateforme dédié aux petites entreprises et auto-entrepreneurs dans divers secteurs. ",
+        "Site fait avec React, JS et Tailwind, comprenant plusieurs fonctionnalités",
+        "Back end NodeJs : https://github.com/THP-Lab/MPE_back",
+        "Offre premium avec mise en avant de l'entreprise, calendrier de réservation.",
+        "Espace Client & Professionnel.",
+        "Landing page auto généré de l'entreprise avec ses informations, services ect..."
+      ],
+      codeLink: "https://github.com/THP-Lab/MPE_front",
+      liveLink: "http://87.106.212.42:5173/"
     },
   ];
 
