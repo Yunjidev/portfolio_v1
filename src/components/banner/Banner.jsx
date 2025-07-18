@@ -32,7 +32,7 @@ export const Banner = () => {
                   <span className="tagline">Bienvenue sur mon Portfolio</span>
                   <h1 className="gradient-text">Je suis Florian,</h1>
                   <h2 className="gradient-text">Développeur web</h2>
-                  <h2 className="gradient-text">Front et Back End</h2>
+                  <h2 className="gradient-text">Fullstack</h2>
                   <div className="social-icon">
                     <a href="https://www.linkedin.com/in/florian-van-camp-102aba262/" title="Linkedin">
                       <img src={navIcon1} alt="link linkedin" />

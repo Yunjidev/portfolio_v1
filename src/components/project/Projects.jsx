@@ -34,6 +34,12 @@ import masimg3 from "../../assets/img/Mas/3.png";
 import mpe1 from "../../assets/img/MPE/mpe1.png";
 import mpe2 from "../../assets/img/MPE/mpe2.png";
 import mpelogo from "../../assets/img/MPE/mpelogo.svg";
+import cautioneo from "../../assets/img/cautioneo.svg";
+import kettlecorelogo from "../../assets/img/kettlecore.jpeg";
+import kettlecore1 from "../../assets/img/kettle1.png";
+import kettlecore2 from "../../assets/img/kettle2.png";
+import kettlecore3 from "../../assets/img/kettle3.png";
+import cautioneologo from "../../assets/img/cautioneologo.png";
 
 import "./project.css"
 
@@ -57,6 +63,8 @@ const Projects = () => {
     "Wiki BigTime": [wiki,wiki2],
     "Mas des Sources" : [masimg2, masimg3],
     "Ma Petite Entreprise" : [mpe1, mpe2],
+    "Cautioneo" : [cautioneo],
+    "Kettlecore" : [kettlecore1, kettlecore2, kettlecore3],
   };
 
   const projectAvatars = {
@@ -64,7 +72,9 @@ const Projects = () => {
     "Website ChronoDAO": avatar2,
     "Wiki BigTime": avatar3,
     "Mas des Sources" : maslogo,
-    "Ma Petite Entreprise" : mpelogo
+    "Ma Petite Entreprise" : mpelogo,
+    "Cautioneo" : cautioneologo,
+    "Kettlecore" : kettlecorelogo,
   };
 
   const projects = [
@@ -119,6 +129,32 @@ const Projects = () => {
       codeLink: "https://github.com/THP-Lab/MPE_front",
       liveLink: "http://87.106.212.42:5173/"
     },
+{
+  title: "Cautioneo",
+  description: "[FREELANCE, Visuel & code sous contrat] Application web permettant aux freelances de centraliser et transmettre leurs justificatifs pour une demande de cautionnement locatif.",
+  technologies: ["svg1", "svg9", "svg6"],
+  details: [
+    "Tunnel de dépôt de justificatifs optimisé, avec prévisualisation des fichiers, commentaires dynamiques et upload conditionnel.",
+    "Tutoriel intelligent qui s’adapte au parcours de l’utilisateur (avec ou sans certificat).",
+    "Refonte complète de l’interface utilisateur pour une expérience fluide et intuitive.",
+  ],
+  codeLink: "#", 
+  liveLink: "#"
+},
+{
+  title: "Kettlecore",
+  description: "[FREELANCE] Plateforme de diagnostic en ligne permettant aux utilisateurs d’évaluer leur énergie et de recevoir un rapport PDF personnalisé pour un coach sportif.",
+  technologies: ["svg1", "svg2", "svg6", "svg7"],
+  details: [
+    "Questionnaire dynamique avec navigation question par question, regroupement par dimensions, et barre de progression.",
+    "Résultats détaillés par dimension avec code couleur.",
+    "Génération d’un rapport PDF avec mise en forme personnalisée.",
+    "Connexion Google, espace personnel et suivi des évolutions.",
+    "Espace administrateur pour voir les diagnostics complétés et accéder aux résultats."
+  ],
+  codeLink: "#",
+  liveLink: "https://kettlecore.app/"
+}
   ];
 
   const [expanded, setExpanded] = React.useState(Array(projects.length).fill(false));
